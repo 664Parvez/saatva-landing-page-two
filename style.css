@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+p {
+  font-size: 20px;
+}
+
+#topbar {
+  background-color: #c19678;
+  padding: 5px 0;
+}
+#topbar h4 {
+  margin-bottom: 0;
+  color: #ffffff;
+}
+#topbar h4 a {
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #topbar h4 {
+    font-size: 20px;
+  }
+}
+#navbar a .icon-module__saatvaLogo-d22 {
+  fill: #c19678;
+  width: 150px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #navbar a .icon-module__saatvaLogo-d22 {
+    fill: #c19678;
+    width: 100px;
+  }
+  #navbar p {
+    font-size: 18px;
+  }
+}
+header #header_section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./image/d-hero-v1.jpg");
+  padding: 200px 0;
+  background-position: center;
+  background-size: cover;
+}
+header h1 {
+  font-size: 80px;
+  color: #ffffff;
+}
+header p {
+  color: #ffffff;
+  font-size: 30px;
+}
+header .btn {
+  background-color: #c19678;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  header #header_section {
+    padding: 100px 0;
+  }
+  header #header_section h1 {
+    font-size: 60px;
+  }
+  header #header_section p {
+    font-size: 20px;
+  }
+}
+#first_section {
+  padding: 30px 0;
+  border-bottom: 2px solid #c19678;
+  border-top: 2px solid #c19678;
+}
+#first_section p {
+  margin-bottom: 0;
+  font-size: 32px;
+  font-weight: 600;
+  color: #333333;
+}
+#first_section img {
+  width: 100%;
+}
+#first_section a {
+  color: #c19678;
+}
+
+#second_section h2 {
+  font-size: 45px;
+}
+#second_section img {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 20px;
+}
+#second_section h3 {
+  color: #c19678;
+}
+#second_section p {
+  color: #333333;
+}
+#second_section small {
+  color: #333333;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #second_section h2 {
+    font-size: 35px;
+  }
+  #second_section img {
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 430px) and (max-width: 540px) {
+  #second_section img {
+    margin-top: 30px;
+  }
+}
+#third_section h2 {
+  text-align: center;
+  font-size: 50px;
+}
+#third_section p {
+  text-align: center;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #third_section h2 {
+    font-size: 35px;
+  }
+}
+#forth_section h4 {
+  font-weight: 600;
+  color: #333333;
+}
+
+#fifth_section #video_bg {
+  background-image: url("./image/d-video-background.avif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 250px 0;
+}
+#fifth_section h2 {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+#sixth_section h2 {
+  font-size: 45px;
+}
+#sixth_section img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #sixth_section h2 {
+    font-size: 35px;
+  }
+  #sixth_section img {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 430px) and (max-width: 540px) {
+  #sixth_section img {
+    margin-bottom: 20px;
+  }
+}
+#seven_section h2 {
+  font-size: 45px;
+}
+#seven_section img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #seven_section h2 {
+    font-size: 35px;
+  }
+  #seven_section img {
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+}
+@media only screen and (min-width: 430px) and (max-width: 540px) {
+  #seven_section img {
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+}
+#eight_section h2 {
+  font-size: 45px;
+}
+#eight_section img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #eight_section h2 {
+    font-size: 35px;
+  }
+}
+#nine_section .nine_main_img {
+  width: 100%;
+}
+
+#ten_section img {
+  width: 100%;
+}
+#ten_section h3 {
+  font-weight: 600;
+  color: #333333;
+}
+
+#copywrite {
+  background-color: #c19678;
+  padding: 10px 0;
+}
+#copywrite p {
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
